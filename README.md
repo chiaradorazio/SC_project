@@ -74,15 +74,21 @@ The program will automatically read 'signal.txt' and 'background.txt'.
 tmva_train()
 ```
 
-
 ## Results
-In the program the following method were tested:
-1.Boosted Decision Trees (Adaptive Boost)
-2.Multi-Layer Perceptron (Neural Network)
-3.Linear Discriminant Analysis (Fisher discriminant)
-4.Cut optimisation (binary splits)
+In the program the following method were tested:  
+
+1.Boosted Decision Trees (Adaptive Boost)  
+
+2.Multi-Layer Perceptron (Neural Network)  
+
+3.Linear Discriminant Analysis (Fisher discriminant)  
+
+4.Cut optimisation (binary splits)  
+
 As output result are produced *TTMVAOutputCV.root* file and **dataset** folder.
-Inside **dataset** folder the user can find the coefficients of the method tested and the weights.
+
+Inside **dataset** / weights folder the user can find the coefficients of the method tested and the weights.
+
 For comparison of different classifiers look at the **ROC curve**.
 
 
