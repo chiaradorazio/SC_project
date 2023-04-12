@@ -39,9 +39,9 @@ h = hadron (background): 6688
 ### Repository
 The repository contains:
 - tmva_train_SC.C  
-It is a C++ function based on TMVA, a toolkit of ROOT which provides a ROOT-integrated machine learning environment. Once the datasets are opened and the Neural Network and BDT methods are booked, it trains and tests the methods and stamps the ROC curve in order to study the efficiency. 
+It is a C++ function based on TMVA, a toolkit of ROOT which provides a ROOT-integrated machine learning environment. Once the datasets are opened, it trains and tests the methods and stamps the ROC curve in order to study the efficiency. 
 
-A more detailed description is inside every file.
+A more detailed description is inside the file.
 
 ### Installation
 To get this git repository please type on your bash:
