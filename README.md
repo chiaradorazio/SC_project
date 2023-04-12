@@ -3,7 +3,7 @@
 In physics **data analysis**, we have usually two main categories of events (i.e. two different datasets): **signal** *events* that concern the physics we want to examine and **background** *events* that have similar properties to the ones we are looking for.
 **Event selection** is a technique that loops on all events and decides whether to accept or to reject each of them, according to specific criteria. At the end of the selection, we will have a sample of **candidates**, ideally made up of signal events.
 
-This repository explores **multivariate analysis** for *events selection*, based on simulated data obtained by the a Monte Carlo program in order to e in order to to discriminate statistically events caused by primary gammas (signal) from the images of hadronic showers initiated by cosmic rays in the upper atmosphere (background).
+This repository explores **multivariate analysis** for *events selection*, based on simulated data obtained by the a Monte Carlo program in order to discriminate statistically events caused by primary gammas (signal) from the images of hadronic showers initiated by cosmic rays in the upper atmosphere (background).
 
 The goal of events selection is to test strategies for filtering events on separated signal and background datasets and then apply the best one on the unique dataset obtained by experiment.
 
